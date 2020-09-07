@@ -1,9 +1,13 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import './App.css';
-
+import Header from './components/Header/Header'
+import About from './components/About/About'
 function App() {
   return (
-    <h1>Fresh veggies coming soon</h1>
+    <Fragment>
+      <Header />
+      <About />
+    </Fragment>
   );
 }
 

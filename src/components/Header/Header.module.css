@@ -1,0 +1,86 @@
+.headerSection{
+    height: 100vh;
+    background-image: url('./../../images//Header.svg');
+}
+.MainBox{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.HeaderText{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.HeaderSubText{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.InputBox{
+    position: relative;
+}
+
+.Input{
+    height: 50px;
+    width: 40vw;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 2px 0px 2px 10px;
+}
+.InputButton{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    background: #3BC08B;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 12px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.LoactionText{
+   text-align: center;
+   margin-top: 10px;
+}
+
+.LoactionText ul{
+    list-style: none;
+}
+
+.LoactionText ul li{
+    display: inline;
+    font-size: 11px;
+    margin: 15px 5px;
+    word-break: break-all;
+}
+
+@media screen and (max-width: 480px) {
+    .HeaderText{
+        font-weight: 600;
+        text-align:center;
+    }
+    .dash{
+        display: none;
+    }
+    .HeaderSubText{
+        text-align: center;
+    }
+    .InputBox{
+        width: 80%;
+    }
+    .Input{
+        width: 80vw;
+    }
+    .InputButton{
+        display: none;
+    }
+  }
