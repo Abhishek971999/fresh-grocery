@@ -5,7 +5,7 @@ import Tick from '../../images/Tick.svg'
 function About() {
     return (
         <div className={aboutStyles.aboutContainer}>
-            <div className={aboutStyles.aboutSection}>
+        <div className={aboutStyles.aboutSection}>
             <div className={aboutStyles.textBox}>
                 <div className={aboutStyles.textContainer}>
                     <p className={aboutStyles.hashtag}>#GroceryDeliveredSafely</p>

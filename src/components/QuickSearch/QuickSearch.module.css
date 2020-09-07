@@ -1,0 +1,37 @@
+.SearchSection{
+    height: 100vh;
+    background: #FFFBF2;
+}
+.TextBox{
+    text-align: center; 
+    padding-top: 50px;
+}
+.MainText{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.SubText{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #807F81;
+}
+
+.Row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,18%);
+    padding: 10px 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.Col{
+    margin: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.Col img{
+    width: 90px;
+    height: 90px;
+}

@@ -67,7 +67,7 @@
     .headerSection{
         background-color: #FFDF9C;
         background-image: none;
-        height: 50vh;
+        min-height: 50vh;
     }
     .HeaderText{
         font-weight: 600;
