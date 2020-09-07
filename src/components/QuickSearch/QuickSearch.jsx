@@ -9,8 +9,8 @@ function QuickSearch() {
     return (
         <div className={SearchStyles.SearchSection}>
             <div className={SearchStyles.TextBox}>
-                <p className={SearchStyles.SubText}>Get your groceries delivered in less than an hour</p>
-                <h1 className={SearchStyles.MainText}>Stay Home We'll Deliver</h1>
+                <p className={SearchStyles.SubText}>Here's what you need</p>
+                <h1 className={SearchStyles.MainText}>Quick Searches</h1>
             </div>
             <div className={SearchStyles.Row}>
                 <div className={SearchStyles.Col}>
@@ -33,6 +33,9 @@ function QuickSearch() {
                     <img src={Beverages} alt="Beverages"/>
                     <p>Beverages</p>
                 </div>
+            </div>
+            <div className={SearchStyles.ButtonContainer}>
+                <button className={SearchStyles.Button}>Explore More</button>
             </div>
         </div>
     )

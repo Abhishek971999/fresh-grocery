@@ -85,7 +85,7 @@
     
     .aboutRow{
         grid-template-columns: repeat(auto-fit,90%);
-        padding: 10px 20px;
+        padding: 10px 40px;
         justify-content: center;
     }
   }
