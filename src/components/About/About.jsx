@@ -9,7 +9,7 @@ function About() {
             <div className={aboutStyles.textBox}>
                 <div className={aboutStyles.textContainer}>
                     <p className={aboutStyles.hashtag}>#GroceryDeliveredSafely</p>
-                    <h1 className={aboutStyles.MainText}>Hyenically <br/> Packed , <br/> Safely Delivered</h1>
+                    <h1 className={aboutStyles.MainText}>Hygenically <br/> Packed , <br/> Safely Delivered</h1>
                     <button className={aboutStyles.Button}>Learn More</button>
                 </div>
             </div>

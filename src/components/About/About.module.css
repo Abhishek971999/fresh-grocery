@@ -52,11 +52,10 @@
 
 .aboutRow{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,30%);
     padding: 10px 40px;
-    
+    justify-content: center;
 }
-
 .aboutCol{
     margin: 10px;
     width: 80%;
@@ -64,6 +63,29 @@
 
 .aboutCol img{
     margin-right: 5px;
-    padding: 20px 10px;
-  
+    padding: 20px 10px 10px 10px;
 }
+
+@media screen and (max-width: 480px) {
+    .aboutSection{
+        grid-template-columns: 1fr;
+        grid-template-areas: "textBox" "imageArea";
+    }
+    .textBox{
+        margin: 30px 0;
+    }
+
+    .imageArea{
+        text-align: end;
+    }
+
+    .AboutImage{
+        width: 95%;
+    }
+    
+    .aboutRow{
+        grid-template-columns: repeat(auto-fit,90%);
+        padding: 10px 20px;
+        justify-content: center;
+    }
+  }

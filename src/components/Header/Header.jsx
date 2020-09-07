@@ -8,7 +8,7 @@ function Header() {
                 <p className={HeaderStyles.HeaderSubText}>Get your groceries delivered in less than an hour</p>
                 <div className={HeaderStyles.InputBox}>
                     {/* <i className="fas fa-map-marker-alt" style={{color:"#3BC08B"}}></i> */}
-                    <input type="text" placeholder="Search for a location" className={HeaderStyles.Input}/>
+                    <input type="text" placeholder="Search for a location" aria-labelledby="search-location" className={HeaderStyles.Input}/>
                     <button className={HeaderStyles.InputButton}>Search</button>
                     
                 </div>
