@@ -69,7 +69,7 @@
     .headerSection{
         background-color: #FFDF9C;
         background-image: none;
-        max-height: 50vh;
+        min-height: 50vh;
     }
     .HeaderText{
         font-weight: 600;
@@ -89,5 +89,12 @@
     }
     .InputButton{
         display: none;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .headerSection{
+        background-color: #FFDF9C;
+        background-image: none;
     }
   }

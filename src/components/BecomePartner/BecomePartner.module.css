@@ -75,7 +75,7 @@
         text-align: center;
     }
 
-    .imageArea img{
+    .mainPartnerImg{
         width: 50%;
     }
     .partner1{
@@ -106,5 +106,25 @@
     }
     .span{
         display: inline;
+    }
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    
+    .PartnerContainer{
+        padding: 10px;
+    }
+    .partner1{
+        width: 30%;
+        top: 250px;
+    }
+    .partner3{
+        width: 30%;
+    }
+    .partner4{
+        width: 30%;
+    right: -50px;
+
     }
   }

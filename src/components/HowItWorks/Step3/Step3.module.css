@@ -69,7 +69,6 @@
     .SubText{
         font-size: 20px;
     }
-    
 
     .Step3Img{
         width: 95%;
@@ -81,3 +80,11 @@
     }
 
   }
+
+  @media screen and (max-width: 768px) {
+    
+        .Step3Img{
+            width: 95%;
+        }
+
+      }
