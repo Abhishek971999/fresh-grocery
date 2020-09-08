@@ -110,7 +110,7 @@
   }
 
   
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 490px) and (max-width: 768px) {
     
     .PartnerContainer{
         padding: 10px;
@@ -124,7 +124,7 @@
     }
     .partner4{
         width: 30%;
-    right: -50px;
+        right: 0px;
 
     }
   }
