@@ -19,7 +19,7 @@ function WhyChooseUs() {
                 <div className={ChooseStyles.Col}>
                     <img src={livetrack} alt="Live Order Tracking"/>
                     <h1>Live Order Tracking</h1>
-                    <p>Track your order anytime fromthe store to your doorstep</p>
+                    <p>Track your order anytime from the store to your doorstep</p>
                 </div>
                 <div className={ChooseStyles.Col}>
                     <img src={delivery} alt="24 x 7 delivery"/>
