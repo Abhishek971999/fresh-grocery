@@ -5,7 +5,7 @@
     padding: 0 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "textBox imageArea";
+    grid-template-areas: "imageArea textBox";
 }
 .textBox{
     grid-area: textBox;
@@ -44,7 +44,7 @@
     line-height: 40px;
 }
 
-.Step2Img{
+.Step3Img{
     width: 100%;
 }
 
@@ -69,8 +69,9 @@
     .SubText{
         font-size: 20px;
     }
+    
 
-    .Step2Img{
+    .Step3Img{
         width: 95%;
     }
 

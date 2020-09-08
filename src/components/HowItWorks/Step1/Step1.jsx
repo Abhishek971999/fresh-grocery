@@ -1,6 +1,8 @@
 import React from 'react'
 import StepStyles from './Step1.module.css'
 import HowItWorks from '../../../images/HowItWorks.png'
+import appleStore from '../../../images/appleStore.svg'
+import googlePlay from '../../../images/googlePlay.svg'
 function Step1() {
     return (
         <div className={StepStyles.StepSection}>
@@ -18,6 +20,11 @@ function Step1() {
                     Request in the app
                 </h1>
                 <p className={StepStyles.SubImgText}>Set your delivery location, Choose your groceries from a wide range of 5000+ products</p>
+
+                <div className="LinkBox">
+                    <img src={appleStore} alt="Apple Store Link"/>
+                    <img src={googlePlay} alt="Google Play Store Link"/>
+                </div>
             </div>
         </div>
     )

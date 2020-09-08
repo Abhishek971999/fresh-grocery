@@ -49,9 +49,18 @@
 }
 
 @media screen and (max-width: 480px) {
+    .StepSection{
+        min-height: 80vh;
+        padding: 50px 0 25px 0;
+    }
     .TextBox{
         padding: 10px;
     }
+
+    .SubImgText{
+        font-size: 20px;
+    }
+    
     .ImgContainer img{
         width: 90%
     }
