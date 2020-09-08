@@ -3,6 +3,7 @@ import HeaderStyles from './Header.module.css'
 function Header() {
     return (
         <div className={HeaderStyles.headerSection}>
+           
             <div className={HeaderStyles.MainBox}>
                 <h1 className={HeaderStyles.HeaderText}>Stay Home <span className={HeaderStyles.dash}>&ndash;</span> We'll Deliver</h1>
                 <p className={HeaderStyles.HeaderSubText}>Get your groceries delivered in less than an hour</p>
@@ -12,7 +13,7 @@ function Header() {
                     <button className={HeaderStyles.InputButton}>Search</button>
                     
                 </div>
-                <div className={HeaderStyles.LoactionText}>
+                <div className={HeaderStyles.LocationText}>
                     <ul>
                         <li>NEW YORK</li>
                         <li>LOS ANGELES</li>

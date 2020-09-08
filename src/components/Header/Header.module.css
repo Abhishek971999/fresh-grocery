@@ -52,12 +52,14 @@
    margin-top: 10px;
 }
 
-.LoactionText ul{
+.LocationText ul{
     list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.LoactionText ul li{
-    display: inline;
+.LocationText ul li{
     font-size: 11px;
     margin: 15px 5px;
     word-break: break-all;
