@@ -22,12 +22,12 @@ nav .navWide .wideDiv a {
 
 
 nav .navNarrow i {
-  float: left;
   cursor: pointer;
   color: #FFF;
 }
 nav .navNarrow .narrowLinks {
   display: none;
+  transition: all 0.4s;
 }
 nav .navNarrow .narrowLinks a {
   text-decoration: none;
@@ -50,6 +50,12 @@ nav .navNarrow .narrowLinks a {
   cursor: pointer;
 }
 
+.mobNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (min-width: 480px) {
   nav .navWide {
     display: block;
@@ -57,11 +63,16 @@ nav .navNarrow .narrowLinks a {
   nav .navNarrow {
     display: none;
   }
+  .brandname img{
+    max-width:70%
+  }
 }
 
 @media (max-width: 480px) {
   nav {
-    background-color: #00F;
-    border-bottom: 1px solid #000;
+    background-color: #fff;
+  }
+  .navNarrow{
+    text-align: center;
   }
 }

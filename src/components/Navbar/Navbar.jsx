@@ -16,9 +16,13 @@ function Navbar() {
             </div>
         </div>
         <div className="navNarrow">
-            <i className="fa fa-bars fa-2x" onClick={burgerToggle}></i>
+            <div className="mobNav">
+                <a href="#" onClick={burgerToggle} className="brandName">
+                    <img src={Logo} alt=""/>
+                </a>
+                <i className="fa fa-bars fa-2x" style={{color:'#3BC08B'}} onClick={burgerToggle}></i>
+            </div>
             <div className={`narrowLinks`}>
-            <a href="#" onClick={burgerToggle} className="brandName">Brand</a>
                 <a href="#" onClick={burgerToggle} className="login">Login</a>
                 <a href="#" onClick={burgerToggle} className="signup">Signup</a>
             </div>
