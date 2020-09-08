@@ -14,13 +14,13 @@
 .SubText{
     font-size: 15px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: #807F81;
 }
 
 .Row{
     display: grid;
-    grid-template-columns: repeat(auto-fit,18%);
+    grid-template-columns: repeat(auto-fit,30%);
     padding: 10px 40px;
     justify-content: center;
     margin: 50px 0 20px 0;
@@ -35,20 +35,15 @@
     width: 90px;
     height: 90px;
 }
-.ButtonContainer{
-    text-align: center;
+
+.Col h1{
+    font-size:23px
 }
-.Button{
-    background: #3BC08B;
-    color: #fff;
-    font-weight: 500;
-    border: none;
-    outline: none;
-    margin-top: 20px;
-    padding: 12px 40px;
-    border-radius: 5px;
-    cursor: pointer;
+
+.Col p{
+    color: #626168;
 }
+
 
 @media screen and (max-width: 480px) {
     .SearchSection{

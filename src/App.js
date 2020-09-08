@@ -5,14 +5,16 @@ import Header from './components/Header/Header'
 import About from './components/About/About'
 import QuickSearch from './components/QuickSearch/QuickSearch'
 import HowItWorks from './components/HowItWorks/HowItWorks'
+import WhyChooseUs from './components/WhyChooseUs/WhyChooseUs'
 function App() {
   return (
     <Fragment>
-       <Navbar />
+      <Navbar />
       <Header />
       <About />
       <QuickSearch />
       <HowItWorks />
+      <WhyChooseUs />
     </Fragment>
   );
 }
