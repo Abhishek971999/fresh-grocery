@@ -1,5 +1,9 @@
 import React from 'react'
 import PartnerStyles from './BecomePartner.module.css'
+import Partner1 from '../../images/partner-1.png'
+import Partner2 from '../../images/partner-2.png'
+import Partner3 from '../../images/partner-3.png'
+import Partner4 from '../../images/partner-4.png'
 function BecomePartner() {
     return (
         <div className={PartnerStyles.PartnerContainer}>
@@ -12,7 +16,10 @@ function BecomePartner() {
                    </div>
                 </div>
                 <div className={PartnerStyles.imageArea}>
-                    <img  src="" alt="Partner Images"/>
+                    <img src={Partner1} alt="Partner 1" className={PartnerStyles.partner1}/>
+                    <img  src={Partner2} alt="Partner 2" className={PartnerStyles.mainPartnerImg}/>
+                    <img src={Partner3} alt="Partner 3" className={PartnerStyles.partner3}/>
+                    <img src={Partner4} alt="Partner 4" className={PartnerStyles.partner4}/>
                 </div>
             </div>
         </div>
