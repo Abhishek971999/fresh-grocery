@@ -6,6 +6,7 @@ import About from './components/About/About'
 import QuickSearch from './components/QuickSearch/QuickSearch'
 import HowItWorks from './components/HowItWorks/HowItWorks'
 import WhyChooseUs from './components/WhyChooseUs/WhyChooseUs'
+import BecomePartner from './components/BecomePartner/BecomePartner'
 function App() {
   return (
     <Fragment>
@@ -15,6 +16,7 @@ function App() {
       <QuickSearch />
       <HowItWorks />
       <WhyChooseUs />
+      <BecomePartner />
     </Fragment>
   );
 }

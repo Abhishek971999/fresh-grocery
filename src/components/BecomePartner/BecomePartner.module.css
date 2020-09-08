@@ -1,0 +1,76 @@
+.PartnerContainer{
+    padding: 0 120px 20px 120px;
+}
+
+.PartnerBox{
+    background:#FFDF9C;
+    padding: 60px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "textBox imageArea";
+    margin-top: -80px;
+}
+.TextBox{
+    grid-area: textBox;
+}
+.imageArea{
+    grid-area: imageArea;
+}
+.imageArea img{
+    max-width: 100%;
+}
+.Button{
+    background: #3BC08B;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.span{
+    display: block;
+}
+
+@media screen and (max-width: 480px) {
+    .PartnerContainer{
+        padding: 5px
+    }
+    
+    .PartnerBox{
+        grid-template-columns: 1fr;
+        grid-template-areas:  "imageArea" "textBox";
+        padding: 10px;
+    }
+    .textBox{
+        margin: 30px 0;
+    }
+    .imageArea{
+        text-align: end;
+    }
+
+    .imageArea img{
+        width: 100%;
+    }
+    .aboutRow{
+        grid-template-columns: repeat(auto-fit,90%);
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .ButtonBox{
+        text-align: center;
+    }
+    .Button{
+        width: 80%;
+        font-size: 18px;
+    }
+    .span{
+        display: inline;
+    }
+  }

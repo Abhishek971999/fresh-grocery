@@ -1,10 +1,8 @@
 import React from 'react'
 import ChooseStyles from './WhyChooseUs.module.css'
-import Grocery from '../../images/Grocery.svg'
-import HomeKitchen from '../../images/HomeKitchen.svg'
-import PersonalCare from '../../images/PersonalCare.svg'
-import VegetablesFruits from '../../images/VegetablesFruits.svg'
-import Beverages from '../../images/Beverages.svg'
+import nominorder from '../../images/nominorder.svg'
+import delivery from '../../images/delivery.svg'
+import livetrack from '../../images/livetrack.svg'
 function WhyChooseUs() {
     return (
         <div className={ChooseStyles.SearchSection}>
@@ -14,19 +12,19 @@ function WhyChooseUs() {
             </div>
             <div className={ChooseStyles.Row}>
                 <div className={ChooseStyles.Col}>
-                    <img src={Grocery} alt="Grocery and Staples"/>
+                    <img src={nominorder} alt="No Minimum Order"/>
                     <h1>No Minimum Order</h1>
                     <p>No order value restrictions, Order for yourself or your group</p>
                 </div>
                 <div className={ChooseStyles.Col}>
-                    <img src={VegetablesFruits} alt="Vegetables and Fruits"/>
-                    <h1>No Minimum Order</h1>
-                    <p>No order value restrictions, Order for yourself or your group</p>
+                    <img src={livetrack} alt="Live Order Tracking"/>
+                    <h1>Live Order Tracking</h1>
+                    <p>Track your order anytime fromthe store to your doorstep</p>
                 </div>
                 <div className={ChooseStyles.Col}>
-                    <img src={PersonalCare} alt="Personal Care"/>
-                    <h1>No Minimum Order</h1>
-                    <p>No order value restrictions, Order for yourself or your group</p>
+                    <img src={delivery} alt="24 x 7 delivery"/>
+                    <h1>24 x 7 delivery</h1>
+                    <p>Order anytime, anywhere. Wewill get you delivered</p>
                 </div>
             </div>
         </div>
